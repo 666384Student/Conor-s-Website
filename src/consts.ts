@@ -33,9 +33,9 @@ export const metadata = {
  */
 export const config = {
   /** Site's deploy URL - must start with https:// or http:// */
-  url: "https://fuzzy-disco-pj5pp7g4g9wg37764-4321.app.github.dev/website/",
+  url: "https://666384student.github.io",
   /** Base path for deployment (e.g. "/blog" for GitHub Pages) */
-  base: "/website",
+  base: "/Conor-s-Website",
   /** Number of blog posts displayed per page */
   postsPerPage: 3,
 };

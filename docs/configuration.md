@@ -115,7 +115,7 @@ Multi-level navigation menu configuration:
 ```astro
 ---
 const mainMenu = [
-  { label: "Home", href: "/website/" },
+  { label: "Home", href: "/Conor-s-Website/" },
   { label: "Blog", href: "/blog/" },
   { label: "Contact", href: "/about/" },
 ];
