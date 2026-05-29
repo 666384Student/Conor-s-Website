@@ -27,7 +27,7 @@ export const metadata = {
 ```typescript
 export const config = {
   url: "", // Your site's deploy URL
-  base: "/website/", // Base path (e.g., "/blog")
+  base: "/Conor-s-Website/", // Base path (e.g., "/blog")
   postsPerPage: 10, // Posts per page in blog index
   lang: "en", // Site language
   ogLocale: "en_UK", // Open Graph locale

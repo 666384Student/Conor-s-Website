@@ -16,7 +16,7 @@ import { config } from './src/consts';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://666384student.github.io',
-  base: '/website',
+  base: '/Conor-s-Website',
   trailingSlash: "always",
   compressHTML: false,
   output: "static",
