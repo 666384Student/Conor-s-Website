@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Welcome from "../components/Welcome.astro";
+import LastPosts from "../components/common/LastPosts.astro";
+
+const title = "Welcome to my website!";
+const description =
+  "web.";
+---
+
+<Layout title={title} description={description} pagefind={false}>
+  <Welcome title={title} />
+  <LastPosts count={3} />
+</Layout>

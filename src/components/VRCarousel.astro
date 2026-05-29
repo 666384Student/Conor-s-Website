@@ -1,0 +1,54 @@
+---
+// @ts-expect-error - No type declarations available
+import "@splidejs/splide/css"
+import { SplideExtension, SplideSlide } from 'astro-splide';
+import type { Options } from '@splidejs/splide';
+
+interface Props {
+  slides?: string[];
+}
+
+const { slides } = Astro.props;
+
+const options: Options = {
+   type   : 'loop',
+  drag   : 'free',
+  focus  : 'center',
+  perPage: 3,
+  autoScroll: {
+    speed: 1,
+  },
+};
+// Images for the slideshow, can add more in the future.
+const defaultSlides = slides || [
+  '/website/images/blog/steam-frame-box.jpg',
+  '/website/images/blog/frame_small.jpg',
+  '/website/images/blog/pucks.avif',
+];
+---
+
+<SplideExtension options={options} >
+  {defaultSlides.map((slide) => (
+    <SplideSlide>
+      <img src={slide} alt="Steam Frame pictures" />
+    </SplideSlide>
+  ))}
+</SplideExtension>
+
+<script>
+  import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+  import { initSplideExtension } from "astro-splide/js/splideExtensionUtils"
+  initSplideExtension({AutoScroll})
+</script>
+
+<style>
+  :global(.splide) {
+    width: 100%;
+  }
+
+  :global(.splide__slide img) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+</style>

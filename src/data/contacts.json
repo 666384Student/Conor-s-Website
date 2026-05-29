@@ -1,0 +1,37 @@
+[
+  {
+    "general": {
+      "fullName": ["", "Conor Bell", ""],
+      "webSite": ["https://666384student.github.io/website/", "Website"],
+      "email": ["e-mail", "666384@student.bedford.ac.uk", "666384@student.bedford.ac.uk"]
+    },
+    "social": {
+      "github": ["https://github.com/666384Student", "Github"],
+      "linkedin": [
+        "",
+        "https://www.linkedin.com/in/conor-bell-042095133/",
+        "LinkedIn"
+      ],
+      "facebook": ["", "", "facebook"],
+      "twitter": ["", "", "twitter"],
+      "instagram": ["", "", "instagram"],
+      "youtube": ["", "", "youtube"],
+      "vimeo": ["", "", "vimeo"],
+      "behance": ["", "", "behance"],
+      "telegram": ["", "", "@"]
+    },
+    "location": {
+      "Building": "Bedford College",
+      "street": "Cauldwell St",
+      "city": "Bedford, MK42 9AH",
+      "country": "United Kingdom",
+      "workingHours": [
+        "Working hours (Excluding half terms)",
+        [
+          "Wed, 9:00-14:45 (UTC+1)",
+          "Thu, 9:00-18:15 (UTC+1)"
+        ]
+      ]
+    }
+  }
+]
